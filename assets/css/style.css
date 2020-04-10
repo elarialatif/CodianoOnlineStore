@@ -1,9 +1,86 @@
-/**
- * Global Style
- * -------------------------------------------------------------------
-**/
+/* Fonts */
 
 @font-face {
-    font-family: 'boldFont';
+    font-family: 'mainFont';
     src: url('../fonts/Lato-Bold.ttf');
 }
+
+
+/* ------------------------------------------------------------ */
+
+
+/* Variables */
+
+:root {
+    --green-color: #0DBB5A;
+    --white-color: #FFFFFF;
+    --h1-size: 25px;
+    --page-container-width: 90%;
+    --p-size: 16px;
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+/* General Style */
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.page_container {
+    display: block;
+    width: var(--page-container-width);
+    margin: auto;
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+/* Privacy Policy Page */
+
+.privacy_content {
+    width: 60%;
+    display: inline-block;
+    float: left;
+}
+
+.privacy_content .title {}
+
+.privacy_content .title h1 {
+    font-size: var(--h1-size);
+    color: var(--green-color);
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--green-color);
+    width: fit-content;
+}
+
+.privacy_content .paragraph {
+    margin-top: 3rem;
+}
+
+.privacy_content .paragraph p {
+    font-size: var(--p-size);
+    width: 80%;
+    text-align: justify;
+    margin-bottom: 2rem;
+    text-transform: initial;
+}
+
+#privacyPage .ads {
+    width: 40%;
+    display: inline-block;
+}
+
+#privacyPage .ad_item {
+    margin-top: 5rem;
+}
+
+
+/* ------------------------------------------------------------ */
+
+
+/*  Page */
