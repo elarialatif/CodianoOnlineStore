@@ -1,0 +1,9 @@
+Color:
+Green  #0DBB5A
+White  #FFFFFF
+footer #E3E3E3
+footer ##F2F2F2
+-----------------
+Font: Proxima Nova
+-----------------
+

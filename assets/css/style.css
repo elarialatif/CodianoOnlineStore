@@ -1,0 +1,9 @@
+/**
+ * Global Style
+ * -------------------------------------------------------------------
+**/
+
+@font-face {
+    font-family: 'boldFont';
+    src: url('../fonts/Lato-Bold.ttf');
+}
